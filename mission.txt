@@ -1,2 +1,3 @@
 acepet time	close time	content
 0811				shippingpc dummg mode prohibit next line !='cex' shipping
+0812				Recipe auto check (data correctly protect)
