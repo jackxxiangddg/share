@@ -1,3 +1,6 @@
-acepet time	close time	content
-0811				shippingpc dummg mode prohibit next line !='cex' shipping
-0812				Recipe auto check (data correctly protect)
+acepet time	due day		close time	content
+0811		0819				shippingpc dummg mode prohibit next line !='cex' shipping
+0812		0819				Recipe auto check (data correctly protect)
+0815		0817				RWL Shutdown(NG Glass Drop!)
+0815						FIL RDC Force NG
+0815						ICL UPK CAS CONTROL
