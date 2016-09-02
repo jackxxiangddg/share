@@ -1,0 +1,65 @@
+1.格式化字符串
+
+ord（），chr()
+ord('A')  	65
+chr(65)		'A'
+
+str.encode('ascii')
+str.encode('utf-8')
+
+
+'hello, %s' %  'world'
+
+%d	整数	
+%f	浮点数
+%s	字符串
+%x	十六进制整数
+
+2.python 基础
+	①使用list 和 tuple
+	list 	[];	.append();	.insert();	.pop()
+	tuple	();不可变
+		只有一个元素时，要加一个逗号
+		可变的tuple：	（ ， ，[ , , ]）中list可变。但tuple未变
+
+	②条件判断
+	if	：
+	
+	elif	：
+	
+	else：
+	
+	③循环
+	for ... in ... :
+	
+	range()	
+	
+	while ... :
+		
+	④使用dict 和set
+		dict：字典 or map
+			{'key': value , '':}
+			判断key 是否存在： 
+			1.‘str’ in d
+			2.d.get('key',return)
+			
+			dict 查找插入快，占内存；list相反。
+		set：类似dict，不存value			
+		     set 是无序的，重复元素在set中被自动过滤.
+		     s = set([list])
+		     s.add(key), s.remove(key)
+
+3.面向对象编程
+在Python中，所有数据类型都可以视为对象，当然也可以自定义对象。自定义的对象数据类型就是面向对象中的类（Class）的概念
+
+①类和实例:class , instance
+	class Student(object):
+		def __init__(self, name, score):
+			self.name = name
+			self.score = score  #self表示创建实例本身
+		def get_grade(self):
+			print(self.name, self.score)
+	bart = Student()
+
+	
+		
